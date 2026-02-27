@@ -119,7 +119,7 @@ python run_trade_signal.py --forecast-json "C:/Users/your_user/Downloads/latest_
 ### Windows PowerShell
 
 ```powershell
-$env:TINVEST_TOKEN = "YOUR_TOKEN"
+$env:TINVEST_TOKEN = "t.nRVqFeoEg__tNSbea-8HwFh-3m8KGcyKvJlLiYnpt4MpMRzwo6ik1BKL1hYC9dS7EzAOSDqLPz0i8h5ctqBJlg"
 powershell -NoProfile -ExecutionPolicy Bypass -File .\run_vtbr_trade_signal.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File .\run_vtbr_trade_signal.ps1 -RunRealOrder
 ```
