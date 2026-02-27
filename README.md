@@ -80,7 +80,7 @@ ls -1 ~/Downloads/latest_forecast_signal_*.json
 Windows PowerShell:
 
 ```powershell
-$env:TINVEST_TOKEN = "YOUR_TOKEN"
+$env:TINVEST_TOKEN = "t.nRVqFeoEg__tNSbea-8HwFh-3m8KGcyKvJlLiYnpt4MpMRzwo6ik1BKL1hYC9dS7EzAOSDqLPz0i8h5ctqBJlg"
 ```
 
 macOS / Linux:
