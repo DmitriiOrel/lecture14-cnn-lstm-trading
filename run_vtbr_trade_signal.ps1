@@ -3,7 +3,7 @@ param(
     [string]$PythonExe = "C:\projects\lecture14-cnn-lstm-trading-repo\.venv\Scripts\python.exe",
     [string]$AccountId = "",
     [string]$Token = $env:TINVEST_TOKEN,
-    [string]$ForecastJson = "C:\projects\lecture14-cnn-lstm-trading-repo\reports\lecture14_cnn_lstm_etln_h3\latest_forecast_signal_etln_h3.json",
+    [string]$ForecastJson = "C:\projects\lecture14-cnn-lstm-trading-repo\reports\simple_lstm_etln_h3\latest_forecast_signal_etln_h3.json",
     [switch]$RunRealOrder,
     [switch]$NoScheduleGate,
     [ValidateSet("", "BUY", "SELL")]

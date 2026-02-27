@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 set -euo pipefail
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PYTHON_EXE="${PROJECT_DIR}/venv/bin/python"
+PYTHON_EXE="${PROJECT_DIR}/.venv/bin/python"
 if [[ ! -x "$PYTHON_EXE" ]]; then
   PYTHON_EXE="${PYTHON_EXE_OVERRIDE:-python3}"
 fi
@@ -108,3 +108,4 @@ if [[ $STATUS -ne 0 ]]; then
 fi
 
 echo "Done. ExitCode=0"
+
