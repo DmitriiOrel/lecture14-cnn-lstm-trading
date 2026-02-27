@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow==2.16.2
+jupyterlab
+ipykernel
+cachetools
+deprecation
+protobuf<5
+grpcio>=1.59.3
+python-dateutil

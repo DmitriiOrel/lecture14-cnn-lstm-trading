@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual envs
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local outputs / strategy state / logs
+logs/
+reports/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / env files
+.env
+.env.*
+*.secrets
