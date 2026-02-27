@@ -86,7 +86,7 @@ $env:TINVEST_TOKEN = "t.nRVqFeoEg__tNSbea-8HwFh-3m8KGcyKvJlLiYnpt4MpMRzwo6ik1BKL
 macOS / Linux:
 
 ```bash
-export TINVEST_TOKEN="YOUR_TOKEN"
+export TINVEST_TOKEN = "t.nRVqFeoEg__tNSbea-8HwFh-3m8KGcyKvJlLiYnpt4MpMRzwo6ik1BKL1hYC9dS7EzAOSDqLPz0i8h5ctqBJlg"
 ```
 
 ### Шаг 2. Тестовый запуск без отправки ордера
